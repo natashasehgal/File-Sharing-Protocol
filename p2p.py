@@ -263,4 +263,3 @@ if __name__ == "__main__":
         if command_split[0] == "SEND":
             client(ip, port, ";".join(command_split[1:]))
 
-
